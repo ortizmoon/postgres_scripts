@@ -1,7 +1,5 @@
-<details>
-<summary>
-      РУССКИЙ
-</summary>
+## RU
+
 
 
 # Скрипты для бэкапов и обслуживания баз данных (PostgreSQL)
@@ -39,12 +37,14 @@ ____
 
 Файлы журналов хранятся в той же директории, что и файлы дампов.<br> Каждый файл журнала именуется в соответствии с соответствующей базой данных и временной меткой, по формату: `<имя_базы_данных>_<временная_метка>.log`.
 
-</details>
+
 
 ----
-<details>
 
- <summary> ENGLISH </summary>
+<br>
+<br> 
+
+## EN
 
 
 # Database Scripts (PostgreSQL)
@@ -83,5 +83,3 @@ ____
 The script creates logs for each database dump operation, which are essential for tracking the success or failure of the backup process. 
 
 The log files are stored in the same directory as the dump files. Each log file is named according to the corresponding database and timestamp, following the format: `<database_name>_<timestamp>.log`.
-
-</details>
