@@ -15,7 +15,7 @@
 ____
 ### **Склонировать репозиторий:**
 ```bash
-git clone git@github.com:ortizmoon/postgres_dump.git
+git clone git@github.com:ortizmoon/postgres_scripts.git
 
 ```
 ____
