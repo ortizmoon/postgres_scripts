@@ -58,7 +58,7 @@ Default PostgreSQL tools used for database maintenance: `VACUUM`, `ANALYZE`, and
 ____
 ### **Clone the repository:**
 ```bash
-git clone git@github.com:ortizmoon/postgres_dump.git
+git clone git@github.com:ortizmoon/postgres_scripts.git
 
 ```
 ____
