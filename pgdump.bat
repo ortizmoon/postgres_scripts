@@ -14,7 +14,7 @@ FOR %%D IN (%DBS%) DO (
     SET LOGPATHFILE="%BACKPATH%\%LOGFILE%"
     SET BACKFILE="%BACKPATH%\%DNAME%.7z"
 
-    REM Logging the start of the process
+    REM Start log
     ECHO Start dump: %DATETIME% >>%LOGPATHFILE%
 
     REM Creating the dump

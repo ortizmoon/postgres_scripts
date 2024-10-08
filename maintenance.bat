@@ -10,7 +10,7 @@ FOR %%D IN (%DBS%) DO (
     SET LOGFILE=%%D_%DATETIME%.log
     SET LOGPATHFILE="%DBLOGPATH%\%LOGFILE%"
 
-    REM Logging the start of the maintenance process
+    REM Start log
     ECHO Start maintenance: %DATETIME% >>%LOGPATHFILE%
 
     REM Set password for PostgreSQL
