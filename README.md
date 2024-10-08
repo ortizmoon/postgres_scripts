@@ -28,7 +28,7 @@ ____
    - **LOGPATH**: Директория, в которой будут сохраняться файлы журналов.
    - **PGUSER**: Пользователь для подключения к базам.
    - **PGPASSWORD**: Пароль для подключения к базам.
-   - **LATESTBACKUP**: Директория, в которую необходимо поместить файл\файлы бэкапа <newbase>.backup для разворачивания в базу. Скрипт deploy_base.bat развернет по одной базе данных, с именем <newbase>, на каждый файл <newbase>.backup.
+   - **LATESTBACKUP**: Директория, в которую необходимо поместить файл\файлы бэкапа <newbase>`.backup` для разворачивания в базу. Скрипт `deploy_base.bat` развернет по одной базе данных, с именем `<newbase>`, на каждый файл `<newbase>`.backup.
    - **PGHOST**:  Адрес сервера базы данных (например, 127.0.0.1)
 ----
 
@@ -74,7 +74,8 @@ ____
    - **BACKUPPATH**: Set the directory where backup files will be stored.
    - **LOGPATH**: Set the directory where log files will be saved.
    - **PGUSER**: Set the database user.
-   - **PGPASSWORD**: Set the database password. 
+   - **PGPASSWORD**: Set the database password.
+   - **LATESTBACKUP**: Directory where the backup file(s) <newbase>.backup should be placed for deployment to the database. The script deploy_base.bat will deploy one database with the name <newbase> for each file <newbase>.backup.
    - **PGHOST**: Set your database server address (e.g., `127.0.0.1`).
 
 ----
