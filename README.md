@@ -2,12 +2,11 @@
 
 
 
-# Скрипты для автоматизации работы с базами данных (PostgreSQL)
+# Скрипты для автоматизации работы с базами данных (PostgreSQL) для Windows
 
 Этот проект содержит в себе простые скрипты для автоматизации работы с базами данных. <br>Необходимо создать пользователя, который будет иметь права на подключение, бэкап и обслуживание баз данных, после чего задать их в файле `config.bat`, помимо путей .<br>
 
 Скрипты предназначены для автоматизации процесса резервного копирования баз данных PostgreSQL с использованием pg_dump, и их сжатия с помощью 7-Zip. .<br>
-Запускаются на **Windows**.
 Для обслуживания баз данных используются стандартные инструменты PostgreSQL: VACUUM, ANALYZE и REINDEX.
 ## Что необходимо:
 ____
@@ -48,11 +47,10 @@ ____
 ## EN
 
 
-# Database Scripts (PostgreSQL)
+# Database Scripts (PostgreSQL) for Windows
 
 This project contains a simple scripts for are creating backups (`pgdump.bat`) and performing maintenance (`maintenance.bat`) on PostgreSQL databases. You need to create a user who will have permissions for connecting, backing up, and maintaining the databases, and then specify these credentials in the `config.bat` file, along with the paths.<br>
 
-This script is intended for **Windows**.<br>
 It's designed to automate the backup process of your **PostgreSQL** databases using `pg_dump` and compress them with **7-Zip**.<br>
 Default PostgreSQL tools used for database maintenance: `VACUUM`, `ANALYZE`, and `REINDEX`
 ## Setup
